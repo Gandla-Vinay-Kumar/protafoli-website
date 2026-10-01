@@ -1,0 +1,9 @@
+{
+  "name": "vinay-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website for G Vinay Kumar",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
