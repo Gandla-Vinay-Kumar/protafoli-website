@@ -61,6 +61,7 @@ body {
     background-color: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.6;
+   
     overflow-x: hidden;
     position: relative;
     background-image: 
