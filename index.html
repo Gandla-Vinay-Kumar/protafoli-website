@@ -3,269 +3,737 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G Vinay Kumar - Portfolio</title>
+    <meta name="description" content="Portfolio of G. Vinay Kumar - Computer Science & Engineering Student, Aspiring Software Engineer specializing in Java, MERN Stack, and Cloud Technologies.">
+    <meta name="keywords" content="Vinay Kumar, Gandla Vinay Kumar, Software Engineer Portfolio, MTIET, Java Developer, Web Developer, AI-ML">
+    <meta name="author" content="G. Vinay Kumar">
+    <title>G. Vinay Kumar | Software Engineer & Computer Science Student</title>
 
-    <link rel="stylesheet" href="Hero.CSS">
-    <link rel="stylesheet" href="About Me.CSS">
-    <link rel="stylesheet" href="Skills.CSS">
-    <link rel="stylesheet" href="Education.CSS">
-    <link rel="stylesheet" href="Internshipes.CSS">
-    <link rel="stylesheet" href="Project.CSS">
-    <link rel="stylesheet" href="certifications.CSS">
-    <link rel="stylesheet" href="contact.CSS">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="PROFILE.jpeg">
 </head>
 
 <body>
 
     <!-- ================= NAVBAR ================= -->
-    <nav>
-        <h2>G.VINAY KUMAR</h2>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="nav-logo-badge">VK</span>
+                <span>G. Vinay Kumar</span>
+            </a>
 
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#internships">Internships</a>
-            <a href="#projects">Projects</a>
-            <a href="#certifications">Certifications</a>
-            <a href="#contact">Contact</a>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#internships" class="nav-link">Internships</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-cta-btn">Contact Me</a>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-    </nav>
+    </header>
 
-    <!-- ================= HOME ================= -->
+    <!-- ================= HERO ================= -->
     <section id="home">
-        <div class="home-content">
-            <h1>Hi, I'm G Vinay Kumar</h1>
-            <h2>Computer Science Student</h2>
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span>
+                        Available for Software Engineering & Internship Opportunities
+                    </div>
 
-            <p>
-                I am a Computer Science student with a strong interest
-                in learning new technologies and improving my technical skills.
-            </p>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">G. Vinay Kumar</span>
+                    </h1>
 
-            <img src="PROFILE.jpeg" alt="My profile" class="pic">
+                    <h2 class="hero-subtitle">
+                        Computer Science Student & Aspiring Software Developer
+                    </h2>
 
-            <div class="home-buttons">
-                <a href="#projects" class="button">View My Projects</a>
-                <a href="#contact" class="button">Contact Me</a>
+                    <p class="hero-desc">
+                        Undergraduate in Computer Science & Engineering at Mother Theresa Institute of Engineering and Technology. 
+                        Passionate about building scalable applications with <strong>Java</strong>, modern <strong>Web Development (MERN)</strong>, 
+                        and <strong>Intelligent Systems</strong>.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore Projects</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                        <a href="https://github.com/vini39-539" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-metrics">
+                        <div class="metric-item">
+                            <span class="metric-number">8.0</span>
+                            <span class="metric-label">B.Tech CGPA</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-number">2+</span>
+                            <span class="metric-label">Virtual Internships</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-number">3+</span>
+                            <span class="metric-label">Key Projects</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-number">8+</span>
+                            <span class="metric-label">Core Technologies</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrap">
+                    <div class="hero-avatar-frame">
+                        <img src="PROFILE.jpeg" alt="G. Vinay Kumar" class="hero-avatar-img">
+                    </div>
+                    <div class="floating-chip chip-1">
+                        <span>🎓</span> B.Tech CSE (2023 - 2027)
+                    </div>
+                    <div class="floating-chip chip-2">
+                        <span>🚀</span> Java & Web Tech
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- ================= ABOUT ================= -->
+    <!-- ================= ABOUT ME ================= -->
     <section id="about">
-        <h1>About Me</h1>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Biography</span>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">
+                    A motivated engineering student dedicated to building robust software and continuous learning.
+                </p>
+            </div>
 
-        <p>
-            I am a student in computer science with a strong interest in learning new
-            technologies and improving my technical skills. I have basic knowledge of
-            Java programming, Bash scripting and Networking, problem-solving, and
-            software development.
-        </p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                        Who I Am
+                    </h3>
+                    <p>
+                        I am currently pursuing my <strong>B.Tech in Computer Science and Engineering</strong> at Mother Theresa Institute of Engineering and Technology (MTIET, Palamaner), maintaining an 8.0 CGPA.
+                    </p>
+                    <p>
+                        I have a strong foundational understanding of software development, object-oriented programming (OOP) with Java, modern web development, and cloud integration. I thrive on solving complex computational problems and building functional, user-centric software applications.
+                    </p>
 
-        <h2><b>Basic Foundation</b></h2>
+                    <div class="about-highlights">
+                        <div class="highlight-box">
+                            <span>Degree</span>
+                            <strong>B.Tech in CSE</strong>
+                        </div>
+                        <div class="highlight-box">
+                            <span>Expected Graduation</span>
+                            <strong>2027</strong>
+                        </div>
+                        <div class="highlight-box">
+                            <span>Location</span>
+                            <strong>Andhra Pradesh, India</strong>
+                        </div>
+                        <div class="highlight-box">
+                            <span>Interests</span>
+                            <strong>Full Stack & Cloud</strong>
+                        </div>
+                    </div>
+                </div>
 
-        <p>
-            In Networking, Bash Scripting, SQL,
-            Java Programming Basics,
-            Object oriented programming (OOPs),
-            MERN stack,
-            Networking.
-        </p>
+                <div class="about-card">
+                    <h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                        Core Technical Foundation
+                    </h3>
+                    <p>
+                        My academic coursework and self-driven hands-on projects have built a disciplined foundation across software engineering and system architecture:
+                    </p>
+
+                    <div class="domain-tags">
+                        <div class="domain-tag">☕ Java Programming & OOPs</div>
+                        <div class="domain-tag">🌐 Full-Stack MERN Stack</div>
+                        <div class="domain-tag">🗄️ SQL & DBMS Architecture</div>
+                        <div class="domain-tag">🐧 Linux & Bash Scripting</div>
+                        <div class="domain-tag">📡 Computer Networking</div>
+                        <div class="domain-tag">🤖 Artificial Intelligence & ML Basics</div>
+                        <div class="domain-tag">☁️ Cloud Integration Principles</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- ================= SKILLS ================= -->
     <section id="skills">
-        <h1>My Skills</h1>
-
-        <div class="skills-container">
-            <div class="skill">
-                <img src="pictures/HTMLIMAGE.jpeg" alt="Java" class="image">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Proficiency</span>
+                <h2 class="section-title">My Technical Skills</h2>
+                <p class="section-subtitle">
+                    A curated collection of languages, frameworks, and system tools I work with.
+                </p>
             </div>
 
-            <div class="skill">
-                <img src="pictures/CSSIMAGE.jpeg" alt="MERN Stack" class="image">
+            <div class="skills-filter">
+                <button class="filter-btn active" data-filter="all">All Skills</button>
+                <button class="filter-btn" data-filter="frontend">Frontend & Web</button>
+                <button class="filter-btn" data-filter="backend">Backend & Languages</button>
+                <button class="filter-btn" data-filter="data">Databases & Systems</button>
             </div>
 
-            <div class="skill">
-                <img src="pictures/MERNSTACKIMAGE.jpeg" alt="Bash Scripting" class="image">
-            </div>
+            <div class="skills-grid">
+                <!-- HTML5 -->
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon-wrap">
+                        <img src="pictures/HTMLIMAGE.jpeg" alt="HTML5" loading="lazy">
+                    </div>
+                    <span class="skill-badge badge-frontend">Frontend</span>
+                    <h3 class="skill-title">HTML5</h3>
+                    <p class="skill-description">Semantic markup, responsive layouts, web accessibility standards.</p>
+                </div>
 
-            <div class="skill">
-                <img src="pictures/JAVAIMAGE.jpeg" alt="Networking" class="image">
-            </div>
+                <!-- CSS3 -->
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon-wrap">
+                        <img src="pictures/CSSIMAGE.jpeg" alt="CSS3" loading="lazy">
+                    </div>
+                    <span class="skill-badge badge-frontend">Frontend</span>
+                    <h3 class="skill-title">CSS3</h3>
+                    <p class="skill-description">Responsive flexbox, grid layouts, animations, and modern UI styling.</p>
+                </div>
 
-            <div class="skill">
-                <img src="pictures/NETWORKINGIMAGE.jpeg" alt="SQL" class="image">
-            </div>
+                <!-- MERN Stack -->
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon-wrap">
+                        <img src="pictures/MERNSTACKIMAGE.jpeg" alt="MERN Stack" loading="lazy">
+                    </div>
+                    <span class="skill-badge badge-stack">Full Stack</span>
+                    <h3 class="skill-title">MERN Stack</h3>
+                    <p class="skill-description">MongoDB, Express.js, React.js, and Node.js for end-to-end web apps.</p>
+                </div>
 
-            <div class="skill">
-                <img src="pictures/BASHIMAGE.jpeg" alt="DBMS" class="image">
-            </div>
+                <!-- Java -->
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon-wrap">
+                        <img src="pictures/JAVAIMAGE.jpeg" alt="Java" loading="lazy">
+                    </div>
+                    <span class="skill-badge badge-lang">Core Language</span>
+                    <h3 class="skill-title">Java</h3>
+                    <p class="skill-description">Object-Oriented Programming (OOP), data structures, and application logic.</p>
+                </div>
 
-            <div class="skill">
-                <img src="pictures/SQLIMAGE.jpeg" alt="HTML" class="image">
-            </div>
+                <!-- Computer Networking -->
+                <div class="skill-card" data-category="data">
+                    <div class="skill-icon-wrap">
+                        <img src="pictures/NETWORKINGIMAGE.jpeg" alt="Computer Networking" loading="lazy">
+                    </div>
+                    <span class="skill-badge badge-infra">Infrastructure</span>
+                    <h3 class="skill-title">Computer Networking</h3>
+                    <p class="skill-description">TCP/IP, OSI model, socket communication, routing, and network protocols.</p>
+                </div>
 
-            <div class="skill">
-                <img src="pictures/DBMSIMAGE.jpeg" alt="CSS" class="image">
+                <!-- Bash Scripting -->
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon-wrap">
+                        <img src="pictures/BASHIMAGE.jpeg" alt="Bash Scripting" loading="lazy">
+                    </div>
+                    <span class="skill-badge badge-lang">Systems & Shell</span>
+                    <h3 class="skill-title">Bash Scripting</h3>
+                    <p class="skill-description">Unix/Linux shell automation, command-line utilities, and task scheduling.</p>
+                </div>
+
+                <!-- SQL -->
+                <div class="skill-card" data-category="data">
+                    <div class="skill-icon-wrap">
+                        <img src="pictures/SQLIMAGE.jpeg" alt="SQL" loading="lazy">
+                    </div>
+                    <span class="skill-badge badge-data">Database</span>
+                    <h3 class="skill-title">SQL</h3>
+                    <p class="skill-description">Relational database querying, joins, subqueries, and table normalization.</p>
+                </div>
+
+                <!-- DBMS -->
+                <div class="skill-card" data-category="data">
+                    <div class="skill-icon-wrap">
+                        <img src="pictures/DBMSIMAGE.jpeg" alt="Database Management System" loading="lazy">
+                    </div>
+                    <span class="skill-badge badge-data">Database Architecture</span>
+                    <h3 class="skill-title">DBMS</h3>
+                    <p class="skill-description">Database management concepts, ACID properties, schema design, and ER modeling.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ================= EDUCATION ================= -->
     <section id="education">
-        <h1>Education</h1>
-
-        <div class="education-container">
-            <div class="education-box">
-                <h2>B.Tech - Computer Science and Engineering</h2>
-                <h3>Mother Theresa Institute of Engineering and Technology</h3>
-                <p>2023 - 2027</p>
-                <p>CGPA: 8.0</p>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">
+                    My educational milestones, institutions, and academic performances.
+                </p>
             </div>
 
-            <div class="education-box">
-                <h2>Intermediate</h2>
-                <h3>Mother Theresa Junior College</h3>
-                <p>2021 - 2023</p>
-                <p>Percentage: 75.2%</p>
-            </div>
+            <div class="education-timeline">
+                <!-- B.Tech -->
+                <div class="edu-card">
+                    <div class="edu-main">
+                        <div class="edu-header-row">
+                            <h3 class="edu-degree">B.Tech - Computer Science and Engineering</h3>
+                            <span class="edu-status status-active">Currently Pursuing</span>
+                        </div>
+                        <div class="edu-institution">Mother Theresa Institute of Engineering and Technology (MTIET, Palamaner)</div>
+                        <div class="edu-meta">Affiliated to JNTUA | 2023 - 2027</div>
+                    </div>
+                    <div class="edu-score-badge">
+                        <div class="edu-score-val">8.0</div>
+                        <div class="edu-score-lbl">Current CGPA</div>
+                    </div>
+                </div>
 
-            <div class="education-box">
-                <h2>10th Grade</h2>
-                <h3>Z.P.H.S High School</h3>
-                <p>2020 - 2021</p>
-                <p>CGPA: 8.8</p>
+                <!-- Intermediate -->
+                <div class="edu-card">
+                    <div class="edu-main">
+                        <div class="edu-header-row">
+                            <h3 class="edu-degree">Intermediate (MPC)</h3>
+                            <span class="edu-status status-done">Completed</span>
+                        </div>
+                        <div class="edu-institution">Mother Theresa Junior College, Palamaner</div>
+                        <div class="edu-meta">Board of Intermediate Education, AP | 2021 - 2023</div>
+                    </div>
+                    <div class="edu-score-badge">
+                        <div class="edu-score-val">75.2%</div>
+                        <div class="edu-score-lbl">Aggregate Score</div>
+                    </div>
+                </div>
+
+                <!-- 10th -->
+                <div class="edu-card">
+                    <div class="edu-main">
+                        <div class="edu-header-row">
+                            <h3 class="edu-degree">Secondary School Certificate (10th Grade)</h3>
+                            <span class="edu-status status-done">Completed</span>
+                        </div>
+                        <div class="edu-institution">Z.P.H.S High School</div>
+                        <div class="edu-meta">Board of Secondary Education, AP | 2020 - 2021</div>
+                    </div>
+                    <div class="edu-score-badge">
+                        <div class="edu-score-val">8.8</div>
+                        <div class="edu-score-lbl">CGPA</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ================= INTERNSHIPS ================= -->
     <section id="internships">
-        <h1>Internships</h1>
-
-        <div class="internship-container">
-            <div class="internship-box">
-                <img src="pictures/INTENSHIP-1.jpeg" alt="Web Development and Cloud Integration" class="img">
-
-                <h2>Web Development and Cloud Integration</h2>
-
-                <p>
-                    Learned the basic concepts of Artificial Intelligence and Machine Learning.
-                    Gained knowledge about AI applications and modern technologies. Understood
-                    the use of Machine Learning in real-world applications.
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Industry Experience</span>
+                <h2 class="section-title">Virtual Internships</h2>
+                <p class="section-subtitle">
+                    Hands-on industry virtual internship programs supported by Google for Developers, EduSkills, and AICTE.
                 </p>
             </div>
 
-            <div class="internship-box">
-                <img src="pictures/INTENSHIP-2.jpeg" alt="Android Developer Virtual Internship" class="img">
+            <div class="credential-grid">
+                <!-- Internship 1: Android Developer -->
+                <div class="credential-card">
+                    <div class="credential-img-wrap" onclick="openModal('pictures/INTENSHIP-1.jpeg', 'Android Developer Virtual Internship', 'Completed 10 weeks virtual internship supported by Google for Developers & EduSkills (Grade E, July - Sept 2025).')">
+                        <img src="pictures/INTENSHIP-1.jpeg" alt="Android Developer Virtual Internship Certificate" class="credential-img" loading="lazy">
+                        <div class="credential-overlay">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                            <span>Click to View Full Certificate</span>
+                        </div>
+                    </div>
+                    <div class="credential-body">
+                        <div class="credential-tags">
+                            <span class="credential-badge badge-google">Google for Developers</span>
+                            <span class="credential-badge badge-grade">Grade: E (Excellent)</span>
+                        </div>
+                        <h3 class="credential-title">Android Developer Virtual Internship</h3>
+                        <div class="credential-issuer">EduSkills & AICTE (National Internship Portal)</div>
+                        <p class="credential-desc">
+                            Completed a 10-week intensive program gaining practical knowledge in Android application architecture, Java programming, user interface design, lifecycle handling, testing, and debugging.
+                        </p>
+                        <div class="credential-meta-row">
+                            <span>July – September 2025</span>
+                            <button class="btn-preview" onclick="openModal('pictures/INTENSHIP-1.jpeg', 'Android Developer Virtual Internship Certificate', 'Student ID: STU662a0a2346cofl714031139 | Certificate ID: cdedc830e869803b1bc44ca29013eb29')">View Certificate</button>
+                        </div>
+                    </div>
+                </div>
 
-                <h2>Android Developer Virtual Internship</h2>
-
-                <p>
-                    Gained practical knowledge in Android app development,
-                    Java programming, user interface design,
-                    application testing and debugging.
-                </p>
+                <!-- Internship 2: AI-ML -->
+                <div class="credential-card">
+                    <div class="credential-img-wrap" onclick="openModal('pictures/INTENSHIP-2.jpeg', 'AI-ML Virtual Internship', 'Completed 10 weeks virtual internship with Grade O (Outstanding) supported by Google for Developers & EduSkills (Oct - Dec 2025).')">
+                        <img src="pictures/INTENSHIP-2.jpeg" alt="AI-ML Virtual Internship Certificate" class="credential-img" loading="lazy">
+                        <div class="credential-overlay">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                            <span>Click to View Full Certificate</span>
+                        </div>
+                    </div>
+                    <div class="credential-body">
+                        <div class="credential-tags">
+                            <span class="credential-badge badge-google">Google for Developers</span>
+                            <span class="credential-badge badge-grade">Grade: O (Outstanding 90-100)</span>
+                        </div>
+                        <h3 class="credential-title">AI-ML Virtual Internship</h3>
+                        <div class="credential-issuer">EduSkills & AICTE (Ministry of Education)</div>
+                        <p class="credential-desc">
+                            Mastered core concepts of Artificial Intelligence and Machine Learning, supervised/unsupervised algorithms, model training pipelines, neural network basics, and real-world deployment cases.
+                        </p>
+                        <div class="credential-meta-row">
+                            <span>October – December 2025</span>
+                            <button class="btn-preview" onclick="openModal('pictures/INTENSHIP-2.jpeg', 'AI-ML Virtual Internship Certificate', 'Student ID: STU662a0a2346cofl714031139 | Certificate ID: 9cb8fc9ba6fb1750e1ab6f02bcdbfe64')">View Certificate</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ================= PROJECTS ================= -->
     <section id="projects">
-        <h1>My Projects</h1>
-
-        <div class="project-container">
-            <div class="project">
-                <img src="pictures/BANK-MANAGEMENT-IMAGE.jpeg" alt="Bank Management System" class="imags">
-
-                <h2>Bank Management System</h2>
-
-                <p>
-                    Developed a basic bank management system.
-                    Created customer accounts and added deposit,
-                    withdrawal and balance checking features.
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">
+                    Practical applications developed to solve real-world problems and demonstrate engineering capabilities.
                 </p>
-
-                <button type="button">View Project</button>
             </div>
 
-            <div class="project">
-                <img src="pictures/ONLINE-EXAM-IMAGE.jpeg" alt="Online Examination System" class="imags">
+            <div class="projects-grid">
+                <!-- Project 1: Bank Management System -->
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <img src="pictures/BANK-MANAGEMENT-IMAGE.jpeg" alt="Bank Management System" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">OOPs</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Security</span>
+                        </div>
+                        <h3 class="project-title">Bank Management System</h3>
+                        <p class="project-desc">
+                            A secure banking software built to manage client accounts, facilitate reliable transactions, and ensure accurate financial record-keeping.
+                        </p>
+                        <ul class="project-features">
+                            <li>Account registration with credential authentication</li>
+                            <li>Deposit, withdrawal, and inter-account balance transfer</li>
+                            <li>Automated mini-statement and transaction audit history</li>
+                        </ul>
+                        <div class="project-actions">
+                            <button class="project-btn project-btn-primary" onclick="openModal('pictures/BANK-MANAGEMENT-IMAGE.jpeg', 'Bank Management System', 'Full featured Java-based banking software featuring secure account management, balance checking, deposit/withdrawal routines, and structured database storage.')">
+                                <span>Project Details</span>
+                            </button>
+                            <a href="https://github.com/vini39-539" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-secondary">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                <span>Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-                <h2>Online examination System</h2>
+                <!-- Project 2: Online Examination System -->
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <img src="pictures/ONLINE-EXAM-IMAGE.jpeg" alt="Online Examination System" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Web App</span>
+                        </div>
+                        <h3 class="project-title">Online Examination System</h3>
+                        <p class="project-desc">
+                            A dynamic web application allowing educational institutions to conduct remote examinations with automated timing and instant evaluation.
+                        </p>
+                        <ul class="project-features">
+                            <li>Timed exam sessions with auto-submission on expiration</li>
+                            <li>Intuitive question navigation with review flags</li>
+                            <li>Instant score calculation and performance breakdown</li>
+                        </ul>
+                        <div class="project-actions">
+                            <button class="project-btn project-btn-primary" onclick="openModal('pictures/ONLINE-EXAM-IMAGE.jpeg', 'Online Examination System', 'Interactive web assessment platform providing time-limited exam sessions, question randomizer, instant grading, and student progress reports.')">
+                                <span>Project Details</span>
+                            </button>
+                            <a href="https://github.com/vini39-539" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-secondary">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                <span>Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-                <p>
-                    The Online Examination System allows students to take exams online easily.
-                    simple interface for answering and submitting questions and exam results.
-                </p>
-
-                <button type="button">View Project</button>
-            </div>
-
-            <div class="project">
-                <img src="pictures/STUDENT-MANAGEMENT-IMAGE.jpeg" alt="Student Management System" class="imags">
-
-                <h2>Student Management System</h2>
-
-                <p>
-                    Developed a student management system.
-                    Added, updated and deleted student records
-                    with search functionality.
-                </p>
-
-                <button type="button">View Project</button>
+                <!-- Project 3: Student Management System -->
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <img src="pictures/STUDENT-MANAGEMENT-IMAGE.jpeg" alt="Student Management System" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">DBMS</span>
+                            <span class="tech-tag">CRUD</span>
+                            <span class="tech-tag">GUI</span>
+                        </div>
+                        <h3 class="project-title">Student Management System</h3>
+                        <p class="project-desc">
+                            A centralized academic management portal designed for managing student profiles, enrollments, marks, and attendance.
+                        </p>
+                        <ul class="project-features">
+                            <li>Add, update, search, and delete student records</li>
+                            <li>Search students instantly by Roll Number or Name</li>
+                            <li>Modular relational database schema ensuring consistency</li>
+                        </ul>
+                        <div class="project-actions">
+                            <button class="project-btn project-btn-primary" onclick="openModal('pictures/STUDENT-MANAGEMENT-IMAGE.jpeg', 'Student Management System', 'Desktop/Database academic management application supporting complete CRUD operations, record filtering, and structured report generations.')">
+                                <span>Project Details</span>
+                            </button>
+                            <a href="https://github.com/vini39-539" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-secondary">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                <span>Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ================= CERTIFICATIONS ================= -->
     <section id="certifications">
-        <h1>Certifications</h1>
-
-        <div class="certificate-container">
-            <div class="certificate">
-                <img src="pictures/CERTIFICATE-1.jpeg" alt="Web Development and Cloud Integration" class="images">
-
-                <h2>Web Development and Cloud Integration</h2>
-
-                <p>
-                    Web Development and Cloud Integration involves creating, designing, and
-                    maintaining modern websites and web applications. It includes learning
-                    technologies such as HTML, CSS, JavaScript, and other web development tools.
-                    Cloud integration helps connect web applications with cloud services for
-                    storing and managing data.
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Credentials</span>
+                <h2 class="section-title">Certifications & Tech Camps</h2>
+                <p class="section-subtitle">
+                    Recognized credentials acquired through competitive workshops, councils, and programs.
                 </p>
             </div>
 
-            <div class="certificate">
-                <img src="pictures/CERTIFICATE-2.jpeg" alt="Google AI-ML" class="images">
+            <div class="credential-grid">
+                <!-- Cert 1: SkillDzire -->
+                <div class="credential-card">
+                    <div class="credential-img-wrap" onclick="openModal('pictures/CERTIFICATE-1.jpeg', 'Web Development & Cloud Integration Certificate', 'Awarded by SkillDzire in collaboration with Andhra Pradesh State Council of Higher Education (APSCHE). Certificate ID: b64l8j94c6.')">
+                        <img src="pictures/CERTIFICATE-1.jpeg" alt="Web Development and Cloud Integration Certificate" class="credential-img" loading="lazy">
+                        <div class="credential-overlay">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                            <span>Click to View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="credential-body">
+                        <div class="credential-tags">
+                            <span class="credential-badge badge-apsche">APSCHE Collaboration</span>
+                            <span class="credential-badge badge-grade">Verified Course</span>
+                        </div>
+                        <h3 class="credential-title">Web Development & Cloud Integration</h3>
+                        <div class="credential-issuer">SkillDzire & Andhra Pradesh State Council of Higher Education</div>
+                        <p class="credential-desc">
+                            Completed course and internship curriculum covering modern HTML, CSS, JavaScript, backend architecture, cloud storage paradigms, and web application deployment.
+                        </p>
+                        <div class="credential-meta-row">
+                            <span>April – June 2026</span>
+                            <button class="btn-preview" onclick="openModal('pictures/CERTIFICATE-1.jpeg', 'Web Development & Cloud Integration Certificate', 'Certificate ID: b64l8j94c6 | Issued on: 22-06-2026 by SkillDzire & APSCHE')">View Certificate</button>
+                        </div>
+                    </div>
+                </div>
 
-                <h2>Google AI-ML</h2>
-
-                <p>
-                    Participated in a 3-day Google AI-ML Tech Camp organized by EduSkills and TECHCAMP.
-                    Learned the basic concepts of Artificial Intelligence and Machine Learning.
-                    Gained knowledge about AI applications and modern technologies.
-                    Understood the use of Machine Learning in real-world applications.
-                    Developed awareness of AI-ML technologies and career opportunities.
-                </p>
+                <!-- Cert 2: Google AI-ML Tech Camp -->
+                <div class="credential-card">
+                    <div class="credential-img-wrap" onclick="openModal('pictures/CERTIFICATE-2.jpeg', 'Google AI-ML Tech Camp Certificate', 'Participated in a 3-day Google AI-ML Tech Camp organized by EduSkills and Google for Developers.')">
+                        <img src="pictures/CERTIFICATE-2.jpeg" alt="Google AI-ML Certificate" class="credential-img" loading="lazy">
+                        <div class="credential-overlay">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                            <span>Click to View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="credential-body">
+                        <div class="credential-tags">
+                            <span class="credential-badge badge-google">Google for Developers</span>
+                            <span class="credential-badge badge-grade">Tech Camp</span>
+                        </div>
+                        <h3 class="credential-title">Google AI-ML Tech Camp</h3>
+                        <div class="credential-issuer">EduSkills TECH CAMP & India Edu Program</div>
+                        <p class="credential-desc">
+                            Completed an intensive 3-day technical camp focusing on practical AI/ML models, neural networks, modern Google Developer platforms, and intelligent application design.
+                        </p>
+                        <div class="credential-meta-row">
+                            <span>January 9 – 11, 2025</span>
+                            <button class="btn-preview" onclick="openModal('pictures/CERTIFICATE-2.jpeg', 'Google AI-ML Tech Camp Certificate', 'Certificate No: 09011101251950 | EduSkills TECH CAMP on Google AI-ML')">View Certificate</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ================= CONTACT ================= -->
     <section id="contact">
-        <h1>Contact Me</h1>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">
+                    Feel free to reach out for opportunities, collaborations, or professional discussions.
+                </p>
+            </div>
 
-        <p>Email: vinay93713@gmail.com</p>
+            <div class="contact-wrap">
+                <!-- Info Column -->
+                <div class="contact-info-card">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I am currently looking for software engineering internships and collaborative development opportunities. Drop me a line or connect with me through any of the channels below!
+                    </p>
 
-        <a href="https://github.com/vini39-539" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/gandla-vinay-kumar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://leetcode.com/u/G_Vinay_Kumar_539" target="_blank" rel="noopener noreferrer">LeetCode</a>
+                    <div class="contact-channels">
+                        <!-- Email -->
+                        <div class="contact-channel">
+                            <div class="channel-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <div class="channel-details">
+                                <span class="channel-label">Email</span>
+                                <div class="channel-val">vinay93713@gmail.com</div>
+                            </div>
+                            <button class="btn-copy" onclick="copyEmail('vinay93713@gmail.com')" title="Copy Email">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                            </button>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="contact-channel">
+                            <div class="channel-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            </div>
+                            <div class="channel-details">
+                                <span class="channel-label">Location</span>
+                                <div class="channel-val">Andhra Pradesh, India</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Pills -->
+                    <div class="social-pills">
+                        <a href="https://github.com/vini39-539" target="_blank" rel="noopener noreferrer" class="social-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            <span>GitHub</span>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/gandla-vinay-kumar" target="_blank" rel="noopener noreferrer" class="social-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            <span>LinkedIn</span>
+                        </a>
+
+                        <a href="https://leetcode.com/u/G_Vinay_Kumar_539" target="_blank" rel="noopener noreferrer" class="social-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.874 5.874 0 0 0 .749 1.621 5.38 5.38 0 0 0 1.623 1.621 5.864 5.864 0 0 0 2.496.749h.515c.613-.03 1.218-.184 1.785-.452l4.896-2.604 1.728-1.728a1.375 1.375 0 1 0-1.944-1.945l-1.729 1.729-4.895 2.604a2.915 2.915 0 0 1-.902.227h-.261a3.076 3.076 0 0 1-1.309-.393 2.825 2.825 0 0 1-.852-.851 3.09 3.09 0 0 1-.393-1.31 2.898 2.898 0 0 1 .634-1.706l3.854-4.126L12.522 2.38a1.375 1.375 0 0 0-.961-.438h1.922zm2.84 8.752a1.375 1.375 0 1 0 0 2.75h4.894a1.375 1.375 0 1 0 0-2.75h-4.894z"/></svg>
+                            <span>LeetCode</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-card">
+                    <h3>Send a Direct Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="e.g. John Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email Address</label>
+                            <input type="email" id="email" class="form-control" placeholder="e.g. john@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="e.g. Internship Inquiry / Collaboration">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Write your message here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <span>Send Message</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-copy">
+                    &copy; 2026 G. Vinay Kumar. Built with passion & clean code.
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" aria-label="Scroll to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <!-- Lightbox Modal for Certificate / Image Viewer -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+            <div class="modal-img-frame">
+                <img id="modalImg" src="" alt="">
+            </div>
+            <h3 class="modal-title" id="modalTitle"></h3>
+            <p class="modal-desc" id="modalDesc"></p>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        <span class="toast-msg">Notification message</span>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
 </body>
 </html>
